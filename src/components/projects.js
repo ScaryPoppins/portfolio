@@ -3,6 +3,7 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, 
 import "./projects.css"
 
 
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -16,17 +17,19 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card  shadow={5} style={{minWidth: '450', margin: ' 30px auto',borderRadius: "10px"}}>
-            <CardTitle style={{ height: '176px', background: 'url(https://rovinox3.s3.amazonaws.com/bucketFolder/1558990399545-lg.png) center / cover'}} >
+            <CardTitle 
+            style={{ height: '176px', background: `url(https://texashuntingforum.com/forum/pics/userpics/2019/07/full-31680-193560-slow_shop2.jpg) center / cover`}} 
+            >
             </CardTitle>
             <CardText>
-               <h2>Rovinox</h2>
-              <h5>Developed a user based E-commerce site to buy and sell products.</h5>
+               <h2>Texas Slow Speed Shop</h2>
+              <h5>Developed a user based E-commerce site to buy and sell products with 2 week deadline.</h5>
               <ul>
                 <li>Bcript.js to secure user login credentials and PostgreSQL to store the data.</li>
-                <li>Aws s3 to store uploaded files. </li>
                 <li>React and redux in the front-end to work with data. </li>
+                <li>Google API to create interactive map with marker. </li>
                 <li>Stripe API to accept payment from user. </li>
-                <li>Implemented various Validation Controls for form validation and implemented custom validation controls using Object Oriented JavaScript. </li>
+                <li>Learned and utilized Material-UI quickly </li>
                 <li>Responsible for React UI and architecture.</li>
 
               </ul>
@@ -34,11 +37,11 @@ class Projects extends Component {
             </CardText>
             <CardActions border className="Card-Actions">
             
-             <a href="https://github.com/ScaryPoppins" rel="noopener noreferrer" target="_blank">
+             <a href="https://github.com/ScaryPoppins/Texas-SlowLab-Performance" rel="noopener noreferrer" target="_blank">
              <button className="btn-project" >GitHub</button>
              </a>
              
-             <a href="http://rovinox.xyz" rel="noopener noreferrer" target="_blank">
+             <a href="http://67.205.191.153:4567/#/" rel="noopener noreferrer" target="_blank">
              <button className="btn-project">Website</button>
              </a> 
              
@@ -49,14 +52,14 @@ class Projects extends Component {
           </Card>
 
           <Card  shadow={5} style={{minWidth: '450', margin: ' 30px auto',borderRadius: "10px"}}>
-            <CardTitle style={{ height: '176px', background: 'url(https://rovinox3.s3.amazonaws.com/bucketFolder/1560188679430-lg.png) center / cover'}} >
+            <CardTitle style={{ height: '176px', background: 'url(https://files.slack.com/files-pri/T039C2PUY-FL255MJR0/image_from_ios.png) center / cover'}} >
             </CardTitle>
             <CardText>
-               <h2>TurboLog</h2>
-              <h5>How to keep track of your car maintenance history</h5>
-              <h6>react, material-ui, redux, node, express, bcrypt, react hooks</h6>
+               <h2>Welp'em</h2>
+              <h5>Yelp for businesses - Review your customers</h5>
+              <h6>React, material-ui, redux, node, express, bcrypt, react hooks</h6>
               <ul>
-                <li>group project that was complated in two weeks</li>
+                <li>Group project that was completed in two weeks</li>
                 <li>Worked heavily with the google map places and geocoding API</li>
                 <li>Led group in several breakout sessions regarding the best approach to challenges throughout the project </li>
                 <li>Entire project created in react hooks</li>
@@ -68,11 +71,11 @@ class Projects extends Component {
             </CardText>
             <CardActions border className="Card-Actions">
             
-             <a href="https://github.com/turbolog/turbo-log" rel="noopener noreferrer" target="_blank">
+             <a href="https://github.com/welpem/welp" rel="noopener noreferrer" target="_blank">
              <button className="btn-project" >GitHub</button>
              </a>
              
-             <a href="http://turbolog.xyz/#/" rel="noopener noreferrer" target="_blank">
+             <a href="http://welp-em.com/" rel="noopener noreferrer" target="_blank">
              <button className="btn-project">Website</button>
              </a> 
              

@@ -16,7 +16,7 @@ width: 60%;
 }
 .Message-form input{
   font-size: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px white solid;
   background: transparent;
   color: white;
@@ -24,7 +24,7 @@ width: 60%;
 
 .message-input{
   height: 80px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px white solid;
   background: transparent;
   color: white;
@@ -33,7 +33,7 @@ width: 60%;
 .send{
  
  margin-top: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px white solid;
   background: transparent;
   color: white;

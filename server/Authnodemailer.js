@@ -17,7 +17,7 @@ module.exports = {
     let mailOptions = {
       from: "Nano",
       to:process.env.RECIEVER,
-      subject: "Contact Form From Nano",
+      subject: "Contact Form From Portfolio",
       text: "Something Happened",
       html: `
          <style>
@@ -34,7 +34,7 @@ module.exports = {
 
     transporter.sendMail(mailOptions, function(err, res) {
       if (err) {
-        console.log("Error", err);
+        console.log("Error in Authnodemailer", err);
       } else {
         console.log("Email Sent");
       }
