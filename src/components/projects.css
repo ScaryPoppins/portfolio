@@ -23,3 +23,7 @@
     background-color: black;
     color: white;
   }
+.projects-grid{
+    display: flex;
+    flex-wrap: wrap;
+}

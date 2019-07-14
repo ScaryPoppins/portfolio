@@ -16,7 +16,7 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card  shadow={5} style={{minWidth: '450', margin: ' 30px auto',borderRadius: "10px"}}>
+          <Card  shadow={5} style={{minWidth: '450', margin: ' 30px auto',borderRadius: "10px", display: 'flex', justifyContent: "flex-start"}}>
             <CardTitle 
             style={{ height: '176px', background: `url(https://texashuntingforum.com/forum/pics/userpics/2019/07/full-31680-193560-slow_shop2.jpg) center / cover`}} 
             >
