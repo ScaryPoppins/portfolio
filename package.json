@@ -1,4 +1,4 @@
-{ //added per tutorial
+{ 
   "homepage": "https://scarypoppins.github.io/portfolio/",
   "name": "mark-nagel",
   "main": "server/index.js",
@@ -27,9 +27,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject", 
-    //added per tutorial
+  
     "predeploy": "npm run build",
-     //added per tutorial
+ 
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
