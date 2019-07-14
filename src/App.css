@@ -1,33 +1,157 @@
-.App {
+/* .mdl-layout-title{
+  background-color: black;
+} */
+.mdl-layout__drawer is-visible{
+  background-color: black;
+}
+
+
+.header-color {
+   /* background-image: url("https://backgroundcheckall.com/wp-content/uploads/2018/10/animated-black-background-3.jpg"); */
+   
+   /* background: transparent; */
+  height: 5vh;
+ 
+}
+
+.landing-grid {
+  /* background-image: url("./components/mainBackground.png"); */
+  /* background: #833ab4;  
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
   text-align: center;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%; 
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.projects-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background:rgb(14, 13, 13);
+  color: white;
+  opacity: .8;
+  padding: 2em;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px rgb(139, 139, 139);
+    border-radius: 20px;
+}
+
+/* contact page css */
+
+
+
+/* contact page css */
+
+
+
+.banner-text {
+  background-color:black;
+  opacity: .7;
+  width: 60%;
+  margin:auto;
+  border-radius: 10px;
+ 
+  
+}
+
+.material-icons{
+  color: aqua;
+}
+
+.banner-text h1 {
+  font-size: 40px;
+  font-weight: bold;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+@media(max-width:600px){
+  
+  .banner-text h1 {
+    font-size: 20px;
+    
+  }
+  .banner-text{
+    width: 80%;
+  }
+  .material-icons{
+    height: 30px;
+  }
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-text hr {
+  border-top: 5px dotted red;
+  width: 50%;
+  margin: auto;
 }
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  
+  font-size: 3em;
+  padding: 8px;
+}
+
+
+.skill-logo{
+  font-size: 70px;
+}
+.fa-node{
+  color: #8CC84B;
+}
+.fa-react{
+  color: #00D8FF;
+}
+.fa-html5{
+color: #F1662A;
+
+}
+.fa-css3-alt{
+color: #1B73BA;
+
+}
+.fa-js-square{
+  color: #F0DB4F;
+}
+
+.redux{
+  height: 70px;
+  width: 70px;
+  margin-bottom: 40px;
+}
+.sql{
+  max-width: 60px;
+  margin-bottom: 20px;
+}
+.fa-git-alt{
+  color: #F05033;
+}
+.my-name{
+  font-size: 50px;
+  color: aqua;
+  font-family: 'Niconne', cursive;
+  
+}
+
+.fa-linkedin{
+color: #0074B2;
+}
+

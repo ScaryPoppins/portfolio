@@ -1,0 +1,25 @@
+.content{
+    background:rgba(19, 18, 18, 0.219);
+    height: 100vh;
+    border-radius: 5px;
+    
+   
+}
+.card-img{
+    font-size: 100px;
+}
+
+.Card-Actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-project{
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-project:hover {
+    background-color: black;
+    color: white;
+  }

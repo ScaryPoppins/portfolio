@@ -1,0 +1,267 @@
+/* .contact-page{
+  height: 100vh;
+  width:100vw; 
+  background-image: url("./mainBackground.png");
+} */
+.contact-content {
+  height:100%;
+  height: 100%;
+  
+}
+.Message-form{
+display: flex;
+flex-direction: column;
+margin: 30px auto;
+width: 60%;
+}
+.Message-form input{
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px white solid;
+  background: transparent;
+  color: white;
+}
+
+.message-input{
+  height: 80px;
+  border-radius: 10px;
+  border: 1px white solid;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+.send{
+ 
+ margin-top: 20px;
+  border-radius: 10px;
+  border: 1px white solid;
+  background: transparent;
+  color: white;
+  font-size: 30px;
+}
+.send:hover{
+  color: black;
+  background: white;
+  cursor: pointer;
+ 
+}
+
+
+@keyframes move-background {
+  from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+@-webkit-keyframes move-background {
+  from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+@-moz-keyframes move-background {    
+	from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+    @-webkit-keyframes move-background {
+	from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+.background-container{
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+}
+
+.stars {
+ background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+ position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+  	z-index: 0;
+}
+
+.twinkling{
+	width:10000px;
+	height: 100%;
+	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+	background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    
+    -moz-animation:move-background 70s linear infinite;
+  -ms-animation:move-background 70s linear infinite;
+  -o-animation:move-background 70s linear infinite;
+  -webkit-animation:move-background 70s linear infinite;
+  animation:move-background 70s linear infinite;
+	
+}
+
+.clouds{
+	width:10000px;
+	height: 100%;
+	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+	background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+
+   -moz-animation:move-background 150s linear infinite;
+  -ms-animation:move-background 150s linear infinite;
+  -o-animation:move-background 150s linear infinite;
+  -webkit-animation:move-background 150s linear infinite;
+  animation:move-background 10s linear infinite;
+}
+.moon{
+  height: 70vh;
+  width:70vh;
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+}
+
+.box-b{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  /* background:#E3E3E3; */
+ 
+  box-sizing: border-box;
+  overflow:hidden;
+  box-shadow: 0 30px 50px rgba(82, 78, 78, 0.5);
+  /* border:2px solid aqua; */
+
+
+}
+.box-b:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background: rgba(255,255,255,.1);
+  transform: 0.5; 
+  pointer-events: none;
+
+
+}
+/* .box:hover:before{
+  left: -50%;
+  transform: skewX(-5deg)
+} */
+.box-b .content-b{
+  position: absolute;
+  top:15px;
+  left:15px;
+  right: 15px;
+  bottom: 15px;
+  border: 2px solid aqua;
+
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+
+}
+.box-b .content-b h1{
+  color:white;;
+  font-size: 30px;
+  margin: 0 0 0 10px;
+  padding: 0;
+
+
+}
+.box-b .content-b p{
+  color: white;
+}
+
+.box-b span{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+
+}
+.box-b span:nth-child(1){
+  transform: rotate(0deg)
+}
+.box-b span:nth-child(2){
+  transform: rotate(90deg)
+}
+.box-b span:nth-child(3){
+  transform: rotate(180deg)
+}
+.box-b span:nth-child(4){
+  transform: rotate(270deg)
+}
+
+.box-b span:nth-child(2):before{
+  animation-delay: -2s;
+}
+.box-b span:nth-child(2):before{
+  animation-delay: -2s;
+}
+
+.box-b span:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: blue;
+  animation: animate1 2.5s linear infinite;
+
+}
+@keyframes animate1{
+  0%{
+    transform: scaleX(0);
+    transform-origin: left;
+
+  }
+  50%{
+    transform: scaleX(1);
+    transform-origin: left;
+
+  }
+  50.1%{
+    transform: scaleX(1);
+    transform-origin: right
+
+  }
+  100%{
+    transform: scaleX(0);
+    transform-origin: right;
+
+  }
+}
+
