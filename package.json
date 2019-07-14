@@ -1,5 +1,5 @@
 { 
-  "homepage": "https://scarypoppins.github.io/",
+  "homepage": "https://scarypoppins.github.io/portfolio/",
   "name": "mark-nagel",
   "main": "server/index.js",
   "proxy": "http://localhost:4000",
