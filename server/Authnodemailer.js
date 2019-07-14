@@ -9,14 +9,16 @@ module.exports = {
       port: 587,
       secure: false,
       auth: {
-        user: process.env.SENDEREMAIL,
-        pass: process.env.PASSWORD
+        // user: process.env.SENDEREMAIL,
+        // pass: process.env.PASSWORD
+        user: 'marksportfolio48@gmail.com',
+        pass: 'cat27dog'
       }
     });
 
     let mailOptions = {
       from: "Nano",
-      to:process.env.RECIEVER,
+      to: 'mark_nagel@hotmail.com',
       subject: "Contact Form From Portfolio",
       text: "Something Happened",
       html: `

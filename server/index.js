@@ -18,6 +18,6 @@ app.get('*', (req, res)=>{
     res.sendFile(path.join(__dirname, '../build/index.html'));
 });
 
-app.listen(SERVER_PORT, ()=> {
-    console.log(`Listening on port ${SERVER_PORT}.`)
+app.listen(4000, ()=> {
+    console.log(`Listening on port ${4000}.`)
 })
