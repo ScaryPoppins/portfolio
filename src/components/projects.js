@@ -75,7 +75,7 @@ class Projects extends Component {
              <button className="btn-project" >GitHub</button>
              </a>
              
-             <a href="http://welp-em.com/" rel="noopener noreferrer" target="_blank">
+             <a href="http://welpem.com/" rel="noopener noreferrer" target="_blank">
              <button className="btn-project">Website</button>
              </a> 
              
