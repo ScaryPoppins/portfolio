@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-    <Header style={{background:this.props.location.pathname === "/" ||this.props.location.pathname === "/contact"? "transparent":"black"}}className="header-color" title={<Link style={{textDecoration: 'none', color: '#2DBFCB',fontSize:"50px",fontFamily: 'Alfa Slab One'}} to="/portfolio">MN</Link>} scroll>
+    <Header style={{background:this.props.location.pathname === "/" ||this.props.location.pathname === "/contact"? "transparent":"black"}}className="header-color" title={<Link style={{textDecoration: 'none', color: '#2DBFCB',fontSize:"50px",fontFamily: 'Alfa Slab One'}} to="/">MN</Link>} scroll>
            
             <Navigation>
 

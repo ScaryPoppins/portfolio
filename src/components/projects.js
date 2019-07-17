@@ -41,7 +41,7 @@ class Projects extends Component {
              <button className="btn-project" >GitHub</button>
              </a>
              
-             <a href="http://67.205.191.153:4567/#/" rel="noopener noreferrer" target="_blank">
+             <a href="https://txslowlabperformance.com/#/" rel="noopener noreferrer" target="_blank">
              <button className="btn-project">Website</button>
              </a> 
              
@@ -57,13 +57,12 @@ class Projects extends Component {
             <CardText>
                <h2>Welp'em</h2>
               <h5>Yelp for businesses - Review your customers</h5>
-              <h6>React, material-ui, redux, node, express, bcrypt, react hooks</h6>
+              <h6>React, redux, node, express, bcrypt, react hooks</h6>
               <ul>
-                <li>Group project that was completed in two weeks</li>
-                <li>Worked heavily with the google map places and geocoding API</li>
+                <li>Group project that was completed in less than two weeks</li>
                 <li>Led group in several breakout sessions regarding the best approach to challenges throughout the project </li>
-                <li>Entire project created in react hooks</li>
-                <li>Was built mobile-first as to more strongly appeal to the main demographic </li>
+                <li>Most components created in react hooks</li>
+                <li>Was built mobile-first as to more strongly appeal to the targeted demographic </li>
                 
 
               </ul>
