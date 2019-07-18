@@ -25,7 +25,7 @@ class Resume extends Component {
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Mark Nagel</h2>
-            <h4 style={{color: 'grey'}}>Web Devoloper</h4>
+            <h4 style={{color: 'grey'}}>Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>I am a full-Stack developer specializing in JavaScript, react and node just to name a few. I am passionate about creating complex applications. I love solving problems and tackle challenges thru the most efficient and creative path. Also, love pair programming and collaborating with other developers.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
