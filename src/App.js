@@ -22,7 +22,7 @@ class App extends Component {
       
         
         <Drawer style={{backgroundColor: 'black', border: 'none', maxHeight: '300px', maxWidth: '200px'}}
-        title={<Link style={{textDecoration: 'none',backgroundColor: 'none', color: '#2DBFCB',fontSize:"50px",fontFamily: 'Alfa Slab One'}} to="/portfolio">MN</Link>}>
+        title={<Link style={{textDecoration: 'none',backgroundColor: 'none', color: '#2DBFCB',fontSize:"50px",fontFamily: 'Alfa Slab One'}} to="/">MN</Link>}>
             <Navigation>
               <Link style={{color: 'aqua'}} to="/resume">Resume</Link>
               <Link style={{color: 'aqua'}} to="/projects">Projects</Link>
