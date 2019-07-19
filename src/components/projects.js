@@ -25,7 +25,7 @@ class Projects extends Component {
                <h2>Texas Slow Speed Shop</h2>
               <h5>Developed a user based E-commerce site to buy and sell products with 2 week deadline.</h5>
               <ul>
-                <li>Bcript.js to secure user login credentials and PostgreSQL to store the data.</li>
+                <li>Bcrypt.js to secure user login credentials and PostgreSQL to store the data.</li>
                 <li>React and redux in the front-end to work with data. </li>
                 <li>Google API to create interactive map with marker. </li>
                 <li>Stripe API to accept payment from user. </li>
