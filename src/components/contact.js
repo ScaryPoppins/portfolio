@@ -13,16 +13,21 @@ class Contact extends Component {
       email:"",
       confirmation: false
     }
+    this.handleConfirmationOpen = this.handleConfirmationOpen.bind(this);
+    this.handleConfirmationClose = this.handleConfirmationClose.bind(this);
   }
 
+  handleConfirmationOpen() {
+    this.setState({confirmation: true})
+  }
 
-  handleInput = (e) =>{
-      
+  handleConfirmationClose() {
+    this.setState({confirmation: true})
+  }
+
+  handleInput = (e) =>{ 
     this.setState({[e.target.name]:e.target.value})
     console.log('e.target.value: ', e.target.value);
-    
-    
-    
   }
 
   handleSubmit = (e) =>{
@@ -32,6 +37,8 @@ class Contact extends Component {
     }
 
   render() {
+    console.log(this.state.confirmation)
+
     return(
       <div className="contact-page"> 
 
@@ -63,7 +70,13 @@ class Contact extends Component {
                 <p>Email</p>
                 <input onChange={this.handleInput} name="email" ></input>
                 <br></br>
-                <button  type="submit" onSubmit={this.handleSubmit} className="send" >Send</button>
+                <button  
+                    type="submit" 
+                    onSubmit={this.handleSubmit} 
+                    className="send" 
+                    onClick={this.handleConfirmationOpen}
+                >Send
+                </button>
             
               </form>
 
