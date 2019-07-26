@@ -10,7 +10,8 @@ class Contact extends Component {
     this.state ={
       name:"",
       message:"",
-      email:""
+      email:"",
+      confirmation: false
     }
   }
 
